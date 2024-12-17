@@ -1,0 +1,460 @@
+*e{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffffff; 
+    color: #333333; 
+    line-height: 1.6;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 15px;
+}
+.navbar {
+    color: #003366;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar:hover {
+    border-bottom: 2px solid #003366;
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    margin-right: 15px;
+}
+#navlogo {
+    height: 60px;
+}
+
+
+#banner-top {
+    background-color: #003366;
+    background-image: url("/website-images-assets/IMG_0170.jpeg"); 
+    background-size: cover;
+    padding: 150px 0;
+    color: white; 
+    text-align: center;
+    margin-top: 85px;
+}
+#banner-top h1 {
+    font-size: 48px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner-top p {
+    font-size: 21px; 
+    margin-bottom: 30px;
+}
+#banner-top a.button2 {
+    background-color: white; 
+    color: #003366; 
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 19px; 
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #003366;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#banner-top a.button2:hover {
+    background-color: #003366; 
+    color: #FFFFFF; 
+}
+#opendaysec
+{
+    background-color: #b9b6b6;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+#opendaysec h2 {
+    font-size: 30px;
+    color: #003366;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 0em;
+}
+
+#opendaysec p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+#opendaysec a{
+    text-decoration: none;
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 67px auto;
+    padding: 30px;
+    color: #333333; 
+}
+main h2 {
+    font-size: 37px; 
+    margin-bottom: 15px;
+    color: #003366; 
+}
+main p {
+    font-size: 18px;
+}
+
+.maps h2{
+    text-align: center;
+}
+
+.maps img{
+    height: auto;
+}
+
+.contents-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 9px;
+    margin-bottom: 20px;
+}
+
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.contents-header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #00468b;
+}
+
+.contents-header hr {
+    width: 50px;
+    height: 3px;
+    background-color: #00468b;
+    border: none;
+    margin: 0 auto 20px;
+    flex-grow: 1; 
+    border-top: 3px solid;
+    border-radius: 5px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    display: inline-block;
+    background: #00468b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.learn-more:hover {
+    background: #003366;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgb(136, 146, 175);
+    border-radius: 5px;
+    color: #333333; 
+}
+
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: lightblue;
+} 
+
+
+.coursetable {
+    font-family: arial, sans-serif;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.study {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.study-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.study-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.study-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.study-box h3 {
+    font-size: 1.5rem;
+    color: #00468b;
+    margin-bottom: 10px;
+}
+
+.study-box p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.news {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1100px; 
+}
+
+.news-item {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    color: #00468b;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.news-item a.read-more {
+    display: inline-block;
+    color: #00468b;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.news-item a.read-more:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+
+.maps img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.opendays{
+    text-align: left;
+    margin-top: 60px;
+}
+
+.opendays hr{
+    align-items: flex-end;
+    text-align: left;
+    width: 64%;
+    margin-bottom: 0em;
+}
+.opendays h2{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.opendays h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 70;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.opendays img{
+    height: 450px;
+    width: 700px;
+}
+
+.otp h3{
+    font-weight: bold;
+    margin-bottom: 0em;
+    margin-top: 2px;
+}
+
+.otp li{
+    font-size: 20px;
+    color: #003366;
+    margin-top: 3px;
+}
+
+.undergradDay h3{
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+#facilities img{
+    height: auto;
+    width: 500px;
+}
+
+.contact-info{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0em;
+  }
+
+.coursetitle{
+    background-color:#003366;
+    color: white;
+    font-size: 25px;
+    max-width: 1100px;
+}
+
+#partner, contact, services {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.partner-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partner-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.partner-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.service-ol{
+    font-weight: bold;
+    color: #00468b;
+    font-size: 20px;
+}
+
+.ECC{
+    color: #00468b
+}
